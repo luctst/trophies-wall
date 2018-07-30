@@ -1,2 +1,2 @@
 # trophies-wall
-This is a collection of some of my first websites and it's amazing !!
+Your first time is not always the best thing happened let's share that.
