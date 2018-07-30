@@ -1,0 +1,425 @@
+/*------------
+  Général
+-------------*/
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+h1 {
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 2.3em;
+  padding: 60px;
+}
+h1 > span {
+  font-size: 1.25em;
+}
+span {
+  font-weight: bold;
+}
+h2 {
+  font-weight: bold;
+  font-size: 2.4em;
+  color: #004d72;
+}
+/*------------
+  Header
+-------------*/
+header {
+  background-color: #704B99;
+}
+header .row {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+header p {
+  font-size: 1.1em;
+}
+.nav-first > p {
+  color: #CCC;
+  padding-left: 60px;
+}
+.nav-second > p {
+  color: #FFF;
+  padding-right: 70px;
+}
+.cta-button p {
+  display: inline-block;
+  padding: 0 5px;
+}
+.cta-button p:first-child > a,.cta-button p > a {
+  color: #704B99;
+  text-transform: uppercase;
+  background-color: #FFF;
+  padding: 10px 30px;
+  font-weight: bold;
+}
+.cta-button p > a {
+  color: #FFF;
+  background-color: #8767ab;
+}
+.cta-button p > a:hover {
+  text-decoration: none;
+}
+/*-------------
+  Hero
+---------------*/
+#hero {
+  background-image: url('images/bg-hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 590px;
+}
+/*-----------
+  logo-area
+------------*/
+#logo-area {
+  background-color: #ebebeb;
+}
+#logo-area .row {
+  position: relative;
+}
+.img-logo > img {
+  position: absolute;
+  top: -44%;
+  left: 44%;
+  z-index: 1;
+}
+.three-logo {
+  padding: 34px 0;
+}
+.three-logo > img {
+  margin: auto;
+}
+/*-------------
+  page
+--------------*/
+#page {
+  background-color: #FFF;
+}
+#page .row{
+  position: relative;
+}
+.text-intro {
+  padding-top: 60px;
+}
+.text-intro > p {
+  font-size: 1.21em;
+  color: #6c54a3;
+  padding-left: 480px;
+}
+.text-intro span {
+  font-size: 1.2em;
+}
+.img-block1 {
+  padding-top: 120px;
+  position: absolute;
+  z-index: 1
+}
+.img-block2 {
+  position: absolute;
+  left: 69%;
+  top: 48%;
+  width: 32%;
+}
+.girl-img > img {
+  margin: auto;
+  padding-top: 55px;
+  padding-left: 55px;
+}
+/*-----------
+  bullet list
+------------*/
+#bullet-list {
+  padding-top: 30px;
+}
+h2 > span {
+  color: #6c54a3;
+}
+.title-bullet-list > p {
+  padding-top: 10px;
+}
+.title-bullet-list p > img {
+  margin: auto;
+}
+.list-1,.list-2 {
+  padding-top: 30px;
+}
+.list-1 ul > li,.list-2 ul > li {
+  padding-left: 15px;
+  color: #898989;
+  line-height: 2em;
+  text-align: justify;
+}
+/*-----------
+  footer
+------------*/
+footer {
+  padding: 90px 0 45px;
+}
+footer img {
+  margin: auto;
+}
+.contact {
+  color: #004d72;
+  padding-top: 30px;
+  font-size: 1.1em;
+}
+.contact > span {
+  font-weight: bold;
+  color: #004d72;
+}
+.copyright {
+  color: #CCC;
+  font-size: 1.1em;
+}
+/*---------------------------
+      queries for phones
+-----------------------------*/
+@media only screen and (max-width: 767px) {
+  /*---------
+    Genéral
+  ---------*/
+  h1 {
+    font-size: 1.55em;
+    padding: 0;
+    line-height: 1.4em;
+    padding-top: 50px;
+  }
+  /*---------
+    header
+  ----------*/
+  .nav-first {
+    text-align: center;
+  }
+  .nav-first > p {
+    padding-left: 0;
+    font-size: 1.1em;
+  }
+  .nav-first > p:first-child::after {
+    content: '.';
+  }
+  .nav-first > p:nth-child(2) {
+    color: #FFF;
+    font-weight: bold;
+  }
+  .cta-button {
+    padding-top: 15px;
+  }
+  /*------------
+    héro
+  --------------*/
+  #hero {
+    background-image: url('images/bgi-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /*-----------
+    logo-area
+  ------------*/
+  .img-logo > img {
+    top: -16%;
+    left: 35%;
+  }
+  .three-logo > img:nth-child(2) {
+    padding-top: 40px;
+  }
+  /*---------
+    page
+  ----------*/
+  #page .row {
+    position: static;
+  }
+  .text-intro {
+    padding-top: 0;
+    background: #FFF;
+  }
+  .text-intro > p {
+    padding: 40px 30px;
+    font-size: 1.3em;
+    line-height: 1.7em;
+  }
+  .img-block1 {
+    position: static;
+    padding-top: 0;
+    background-color: #6c54a3;
+  }
+  .img-block1 > p {
+    color: #FFF;
+    font-size: 1.2em;
+    padding: 40px 30px;
+    margin-bottom: 0;
+    line-height: 1.7em;
+    font-weight: lighter;
+  }
+  .girl-img {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .girl-img > img:nth-child(2) {
+    padding-top: 0;
+    padding-left: 0;
+    width: 100%;
+  }
+  .img-block2 {
+    position: static;
+    width: 100%;
+    background-color: #00936c;
+  }
+  .img-block2 > p {
+    padding: 40px 30px;
+    color: #FFF;
+    font-size: 1.3em;
+    line-height: 1.7em;
+  }
+  .img-block2 span {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  /*-----------
+    bullet-list
+  ------------*/
+  .title-bullet-list > p {
+    padding-top: 25px;
+  }
+  .list-1 ul,.list-2 ul {
+    padding: 0 45px;
+  }
+  .list-1 ul > li,.list-2 ul > li {
+    text-align: left;
+  }
+  .list-2 {
+    padding-top: 0;
+  }
+  /*-----------
+    footer
+  ------------*/
+  footer {
+    padding-top: 70px;
+  }
+  .member-package {
+    background-color: #004d72;
+  }
+  .member-package > p {
+    color: #FFF;
+    padding: 40px 30px;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  .member-package p > .fa {
+    background-color: #00936c;
+    padding: 3px;
+    font-size: 0.9em;
+  }
+  .contact {
+    padding-bottom: 15px;
+  }
+}
+/*----------------------------
+      Queries for tablet
+-----------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /*-----------
+    Genéral
+  ------------*/
+  h1 {
+    font-size: 1.75em;
+  }
+  /*----------
+    header
+  -----------*/
+  header p {
+    font-size: 1em;
+  }
+  .cta-button {
+    padding-top: 0;
+  }
+  .nav-second > p {
+    padding-right: 0;
+  }
+  /*---------
+    hero
+  ----------*/
+  #hero {
+    background-image: url('images/bg-hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 407px;
+  }
+  /*---------
+    logo-area
+  ----------*/
+  .img-logo > img {
+    top: -51%;
+    left: 42%;
+  }
+  /*----------
+    Page
+  -----------*/
+  #page .container {
+    width: 100%;
+  }
+  #page p {
+    font-size: 1.4em;
+    padding: 60px 50px;
+    text-align: left;
+  }
+  .text-intro {
+    padding-top: 0;
+  }
+  .img-block1 {
+    position: sticky;
+    padding-top: 0;
+    background-color: #6c54a3;
+  }
+  .img-block1 > p {
+    color: #FFF;
+  }
+  .img-block2 {
+    position: sticky;
+    width: 100%;
+    background-color: #00936c;
+  }
+  .img-block2 > p {
+    color: #FFF;
+    font-weight: lighter;
+  }
+  .img-block2 > p span {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .girl-img {
+    background-image: url('images/img-girl.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+  }
+  /*--------------
+    Bullet-list
+  --------------*/
+  .list-2 {
+    padding-top: 0;
+  }
+}
+/*------------------------
+  queries laptop descktop
+-------------------------*/
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  /*-------------
+    Genéral
+  ------------*/
+  h1 {
+    font-size: 2em;
+  }
+  /*-----------
+    Header
+  ------------*/
+  .nav-second > p {
+    padding-right: 0;
+  }
+  /*----------
+    Hero
+  ----------*/
+  #hero {
+    height: 526px;
+  }
+}

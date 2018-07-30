@@ -1,0 +1,331 @@
+/*--------
+  général
+--------*/
+h3 small{
+  color: #7c7c7c !important;
+}
+/*-----------
+  Page-loader
+-----------*/
+.js #page-loader {
+  width: 130px;
+  height: auto;
+  margin: -80px;
+}
+
+/*-----------
+  header
+------------*/
+#main-header{
+  border-bottom: 1px solid #303030!important;
+}
+
+.logo {
+  width: 180px;
+  height: auto !important;
+}
+
+.offset{
+	height: 70px;
+}
+
+#main-header {
+  background-color: black;
+}
+
+#selectnav{
+	padding: 0;
+}
+
+#selectnav li a {
+  color: #FFF;
+  line-height: 43px;
+}
+
+#selectnav li a:hover {
+  color: #d83a39;
+}
+
+#selectnav i {
+  color: #d83a39;
+}
+
+.three_fourths, .three_fourth {
+  width: 87%;
+}
+
+.mega {
+  margin-bottom: 200px;
+}
+
+.floatleft {
+  color: #d83a39;
+}
+
+#selectnav ul {
+  padding-top: 26px !important;
+}
+
+#main-header .three_fourths {
+  width: 80%;
+}
+/*------------
+  slider
+-------------*/
+
+.metier {
+  display: block;
+  vertical-align: middle;
+  width: 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+  float: left;
+  opacity:0.75;
+  background-size: 100%;
+}
+
+.metier:hover{
+  background-size: 110%;
+  opacity: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.metier:hover p{
+  border-color :#fff;
+}
+
+#section_metier{
+	float: none;
+	margin-top: -35px;
+}
+
+#metier_1 {
+  background-image: url("Film-Corporate.jpg");
+}
+
+
+#metier_2 {
+  background-image: url("Film-Publicitaire.jpg");
+}
+
+
+#metier_3 {
+  background-image: url("Production-TV.jpg");
+}
+
+
+#metier_4 {
+  background-image: url("encart.jpg");
+}
+
+.metier .titre_metier{
+  font-size: 2em;
+  text-align: center;
+  padding-top: 170px;
+  color: #FFF;
+}
+
+.metier p {
+  border-bottom: 1px solid #d73a39;
+  width: 50%;
+}
+
+.metier .trait {
+  text-align: center;
+  padding-top: 10px;
+  border: none;
+}
+
+.metier a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+/*----------
+  section portfolio
+-----------*/
+.small-padding {
+  background-color: #2d2d2d;
+  border-top: none;
+  border-bottom: none;
+}
+
+#filters {
+/*   display: none; */
+}
+
+.isotope-alt-details h4 {
+    padding-top: 20px;
+    background-color: #303030;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.remove-bottom {
+    margin-bottom: 0;
+    padding-bottom: 15px;
+}
+
+.isotope-alt-details div {
+  border: none;
+  box-shadow: none;
+  border-top: none;
+}
+/*------------
+  section services
+-------------*/
+.aq-template-wrapper .aq_span3 {
+  width: 30.75%;
+}
+
+article, .widget {
+  /*border: 1px solid #303030!important;
+  box-shadow: 0 1px 1px #303030, inset 0 1px 0 #303030;*/
+}
+
+.margin-bottom-10 {
+  font-weight: bold;
+}
+
+ .widget.service.animated.none.animated-visible {
+  padding: 20px 25px!important;
+  border: 1px solid #303030!important;
+  box-shadow: 0 1px 1px #303030, inset 0 1px 0 #303030!important;
+}
+
+
+#services+section {
+  display: none;
+}
+/*------------
+  formulaire
+-------------*/
+div.wpcf7 {
+  margin-top: -20px;
+}
+
+textarea {
+  margin-bottom: 43px;
+  background-color: #131313;
+  border: 1px solid #303030;
+  box-shadow: 0 1px 1px #303030, inset 0 1px 0 #303030;
+}
+
+form p {
+  margin-bottom: -27px;
+}
+
+form input {
+  background-color: #131313;
+  border: 1px solid #303030;
+  box-shadow: 0 1px 1px #303030, inset 0 1px 0 #303030;
+}
+
+input[type="submit"] {
+  color: #FFF;
+}
+
+input[type="text"] {
+  color: #c7c7c7 !important;
+}
+/*------------
+  text next to form
+-------------*/
+.js .animated-visible h5 {
+  color: #FFF;
+  font-weight: bold;
+}
+
+.js .animated-visible {
+  color: #FFF;
+  background-color: #131313;
+}
+
+.js .animated-visible i {
+  color: #303030;
+}
+/*---------
+  footer
+----------*/
+footer {
+    margin-top: 46px;
+    border-top: 1px solid #303030;
+    border-bottom: none;
+    padding: 25px 0;
+    padding: 20px 0;
+    background-color: #131313;
+    padding: 0;
+}
+
+p {
+  color: #FFF;
+}
+
+.social a {
+  color: #303030;
+}
+
+.social a:hover {
+  color: #d83a39;
+}
+
+footer + section {
+  padding: 0;
+}
+
+.social {
+  margin-top: 20px;
+}
+
+.centered {
+  margin-top: 10px;
+  padding-right: 10px;
+}
+
+.centered p  {
+  display: inline-block;
+  padding: 0px 20px 0px 0px;
+}
+/*-----------
+  section en voir plus
+------------*/
+#aq-block-130-6 {
+  padding-left: 130px;
+}
+
+#aq-block-130-7 a{
+  color: #FFF;
+  display: block;
+  line-height: 65px;
+  font-weight: bold;
+}
+
+#aq-block-130-7 p {
+  margin: 0 !important;
+  text-align: justify;
+}
+
+#home{
+	background: rgba(0,0,0,0.8);
+}
+
+.aq-template-wrapper .aq_span3 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+blockquote, pre, .tab-container div, .tab.active, #post-author
+{ padding : 0 !important ; }
+
+
+#aq-template-wrapper-239{
+  margin-top: 24px;
+}

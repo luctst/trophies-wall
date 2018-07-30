@@ -1,0 +1,110 @@
+/* --------------------
+  Général
+---------------------*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* --------------------
+  header
+---------------------*/
+
+header {
+  background-color: #DCDCDC;
+}
+
+/* --------------------
+  navigation
+---------------------*/
+
+.navbar-brand {
+  font-size: 2.3em!important;
+  margin-left: 50px;
+  color: #605E5E !important;
+  font-family: 'Oswald', sans-serif;
+}
+
+nav {
+  padding: 22px;
+}
+
+.navbar {
+  margin-bottom: 0!important;
+}
+
+/* --------------------
+  liste
+---------------------*/
+
+#liste {
+  list-style-type: none;
+  font-size: 1.3em;
+  text-align: right;
+  margin-right: 50px;
+}
+
+#liste ul {
+  display: inline-block;
+  padding: 10px;
+  border-top: 2px solid #94B1D1;
+  border-bottom: 2px solid #94B1D1;
+  margin: 7px;
+}
+
+#liste ul:hover {
+  border-top: 2px solid #01B1AF;
+  border-bottom: 2px solid #01B1AF;
+}
+
+#liste ul a {
+  color: #94B1D1;
+}
+
+#liste ul a:hover {
+  text-decoration: none;
+  color: #01B1AF;
+}
+
+/* --------------------
+  bloc1
+---------------------*/
+
+#bloc1 {
+  padding: 30px;
+  margin-left: 300px;
+  margin-top: 100px;
+}
+
+div {
+  float: left;
+  background-color: #EEE;
+  padding: 20px;
+}
+
+div img {
+  background-color: #FFF;
+  padding: 10px;
+  box-shadow: 4px 4px 4px grey;
+}
+
+#float-right {
+  float: right;
+}
+
+p {
+  color: #A0A09F;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+/*--------------------
+ form
+---------------------*/
+
+form {
+  text-align: center;
+  padding-top: 30px;
+}

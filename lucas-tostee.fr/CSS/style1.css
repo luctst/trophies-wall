@@ -1,0 +1,50 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+li {
+	list-style-type: none;
+}
+/*----------------------
+	barre de navigation
+-----------------------*/
+.navbar {
+	background: #9ADDE8 !important;
+}
+.navbar li a {
+	color: #FFF !important;
+}
+.navbar li a:hover {
+	background-color: #EEE !important;
+	color: #9ADDE8 !important;
+}
+/*----------------------
+	Titre
+-----------------------*/
+h1 {
+	text-align: center;
+	padding-top: 60px;
+}
+/*----------------------
+	Section contact
+-----------------------*/
+section {
+	background-color: #9ADDE8;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 120px;
+	border-radius: 4px;
+}
+section a,p {
+	color: #FFF;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+section a:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+section p {
+	padding: 10px;
+	text-align: center;
+}

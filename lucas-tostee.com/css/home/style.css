@@ -1,0 +1,417 @@
+/*      LARGE DESCKTOP     */
+/*      WRAPPER   */
+.wrapper-1 {
+  position: relative;
+}
+body {
+  background-color: #FFF;
+}
+/*      HEADER  ANIM     */
+@keyframes slide-in-top{0%{transform:translateY(-1000px);opacity:0}100%{transform:translateY(0);opacity:1}}
+.navbar-nav > li {
+  animation:slide-in-top 1s cubic-bezier(.25,.46,.45,.94) both;
+}
+.navbar-nav > li > a:hover {
+  color: #4EA6EC!important;
+  transition: 0.5s;
+}
+.dropdown-menu > a:hover {
+  color: #4EA6EC;
+  transition: 0.5s;
+}
+/*      HEADER     */
+header {
+  position: absolute;
+  z-index: 10;
+  left: 20%;
+}
+ul.navbar-nav {
+  padding-top: 20px;
+}
+ul.navbar-nav > li {
+  font-size: 15px;
+}
+.dropdown-menu > a {
+  font-size: 15px;
+}
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+}
+.navbar-nav > li > a {
+  color: #555!important;
+  font-family: 'Open-Sans',sans-serif;
+  transition: 0.5s;
+}
+.dropdown-menu {
+  color: #333;
+  border: none;
+  border-radius: 7px;
+}
+.dropdown-menu > a {
+  font-size: 14px;
+  transition: 0.5s;
+}
+.dropdown-menu> a:focus, .dropdown-menu> a:hover {
+  background-color: transparent;
+}
+/*      HEADER BACKGROUND ANIM     */
+@keyframes text-focus-in{0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}}
+h1,h2{animation:text-focus-in 1s linear .5s both;}
+/*      HEADER BACKGROUND     */
+#header-background {
+  background-color: #f3faff;
+  background-image: linear-gradient(225deg, #f3faff 9%, #88c6ee 100%);
+  height: 737px;
+}
+h1 {
+  font-family: 'Raleway',sans-serif;
+  font-weight: lighter;
+  color: #555;
+  padding-top: 270px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 96px;
+}
+h2 {
+  color: #4EA6EC; /*: #FFF;*/
+  font-family: 'Open-Sans',sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+/*    SECTION ABOUT     */
+#about {
+  padding-top: 60px;
+}
+h3 {
+  font-family: 'Raleway',sans-serif;
+  font-weight: lighter;
+  color: #555;
+  text-align: left;
+  font-size: 60px;
+  padding-bottom: 60px;
+  padding-right: 160px;
+}
+#about p {
+  color: #555;
+  font-family: 'Open-Sans',sans-serif;
+  font-weight: lighter;
+  text-align: left;
+  font-size: 19px;
+  padding-right: 300Px;
+}
+#about p:last-child {
+  padding-bottom: 60px;
+}
+/*    PORTFOLIO ANIM        */
+@keyframes slide-in-bottom{0%{transform:translateY(1000px);opacity:0}100%{transform:translateY(0);opacity:1}}
+.is-ready {
+  animation:slide-in-bottom 1s linear both;
+}
+/*    SECTION PORTFOLIO     */
+#portfolio {
+  background-color: #F3FAFF;
+}
+#portfolio h3 {
+  padding-top: 60px;
+}
+.portfolio-project {
+  padding-bottom: 25px;
+}
+.project-two > .card {
+  height: 360px;
+}
+.project-three > .card {
+  height: 430px;
+}
+#portfolio h4 {
+  color: #FFF;
+  font-family: 'Raleway',sans-serif;
+  font-weight: lighter;
+  text-align: left;
+  font-size: 20px;
+}
+.card {
+  border: none;
+  background-color: transparent;
+  overflow: hidden;
+  border-radius: 0;
+}
+.card-img-overlay {
+  background-color: rgba(255, 255, 255, 0.50);
+  display: none;
+}
+.card-img {
+  border-radius: 0;
+}
+.project-three {
+  padding-bottom: 60px;
+}
+/*    PROJETS PERO ANIM         */
+@keyframes wobble-hor-bottom{0%,100%{transform:translateX(0);transform-origin:50% 50%}15%{transform:translateX(-30px) rotate(-6deg)}30%{transform:translateX(15px) rotate(6deg)}45%{transform:translateX(-15px) rotate(-3.6deg)}60%{transform:translateX(9px) rotate(2.4deg)}75%{transform:translateX(-6px) rotate(-1.2deg)}}
+#perso p:hover {
+  animation:wobble-hor-bottom 1s linear both;
+}
+figure > img {
+  transition: 0.5s;
+}
+figure > a > img:hover {
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+.figure-img {
+  transition: 0.5s linear;
+}
+/*    SECTION PROJETS PERSO     */
+#perso {
+  padding-bottom: 60px;
+}
+#perso p {
+  color: #9ea0a6;
+  font-weight: lighter;
+  font-size: 75px;
+}
+#perso h3 {
+  padding: 60px 0;
+  text-align: center;
+}
+.column-two {
+  padding-top: 60px;
+}
+.project-perso-three,.project-perso-four,.project-perso-five {
+  padding-top: 60px;
+}
+figure > a:hover {
+  text-decoration: none;
+}
+figcaption {
+  color: #555!important;
+  font-family: 'Open-Sans',sans-serif;
+  font-weight: lighter;
+  font-size: 30px!important;
+}
+/*      CONTACT ANIM        */
+#contact a:hover {
+  text-decoration: none;
+}
+/*      SECTION CONTACT     */
+#contact {
+  background-image: url('../../img/home/contact.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 520px;
+  overflow: hidden;
+}
+#contact > .container {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+}
+#contact  p {
+  font-weight: lighter;
+  color: #FFF;
+  font-size: 50px;
+}
+#contact p:first-child {
+  margin-bottom: 0;
+}
+#contact a {
+  color: #FFF;
+}
+/*    FOOTER     */
+footer {
+  padding: 75px 0;
+}
+footer a:hover {
+  text-decoration: none;
+}
+.social-media img {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 32px;
+  height: auto;
+}
+.twitter {
+  width: 50px!important;
+  height: auto;
+}
+/*    PHONE     */
+@media screen and (max-width: 767px) {
+  /*      HEADER     */
+  header {
+    z-index: 10;
+    position: relative;
+    left: 0;
+  }
+  ul.navbar-nav {
+    text-align: center;
+    padding-top: 40px;
+  }
+  ul.navbar-nav > li {
+    font-size: 16px;
+  }
+  #navbarCollapse {
+    position: absolute;
+    left: 30%;
+  }
+/*    HEADER BACKGROUND     */
+  #header-background {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    width: 100%;
+    height: 455.44px;
+  }
+  h1 {
+    font-size: 37px;
+    padding-top: 140px;
+    text-align: left;
+    padding-bottom: 0;
+  }
+  h2 {
+    font-size: 19px;
+    text-align: left;
+  }
+/*      SECTION ABOUT     */
+  #about {
+    padding-top: 460px;
+  }
+  h3 {
+    font-size: 31px;
+    padding-bottom: 60px;
+    padding-right: 0;
+  }
+  #about p {
+    font-size: 13px;
+    padding-right: 0;
+  }
+/*      SECTION PORTFOLIO     */
+  #portfolio h4 {
+    font-size: 18px;
+  }
+  .project-three > .card,.project-two > .card {
+    height: 100%;
+  }
+/*      SECTION PROJETS PERSO     */
+#perso p {
+  font-size: 27px;
+}
+figcaption {
+  font-size: 85%!important;
+}
+/*      SECTION CONTACT     */
+#contact {
+  height: 280px;
+}
+#contact p {
+  font-size: 24px;
+}
+/*      FOOTER     */
+footer {
+  padding: 60px 0;
+}
+.social-media img {
+  width: 19px;
+  height: auto;
+}
+.twitter {
+  width: 29Px!important;
+  height: auto;
+}
+}
+/*      TABLET     */
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    /*      HEADER     */
+    header {
+      z-index: 10;
+      left: 0;
+    }
+    ul.navbar-nav > li {
+      font-size: 12px;
+      text-align: right;
+    }
+    .dropdown-menu > a {
+      font-size: 12px;
+    }
+    /*      HEADER BACKGROUND     */
+    #header-background {
+      height: 455.44Px;
+    }
+    h1 {
+      font-size: 50px;
+      text-align: center;
+      padding-top: 160px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 20px;
+    }
+    /*      SECTION ABOUT     */
+    h3 {
+      font-size: 39px;
+      padding-bottom: 60px;
+      padding-right: 0;
+    }
+    #about p {
+      font-size: 17px;
+      padding-right: 190px;
+    }
+    /*      SECTION PORTFOLIO     */
+    #portfolio h4 {
+      font-size: 25px;
+    }
+    .project-two > .card {
+      height: 220px;
+    }
+    .project-three > .card {
+      height: 270px;
+    }
+/*      SECTION PROJET PERSO     */
+#perso p {
+  font-size: 55px;
+}
+figcaption {
+  font-size: 23px!important;
+}
+/*      SECTION CONTACT     */
+#contact {
+  height: 400Px;
+}
+#contact p {
+  font-size: 40px;
+}
+}
+/*      DESCKTOP     */
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
+    /*      HEADER     */
+    header {
+      left: 0;
+    }
+    /*      HEADER BACKGROUND     */
+    h1 {
+      font-size: 85px;
+    }
+    /*      SECTION ABOUT     */
+    h3 {
+      font-size: 55px;
+      padding-bottom: 60px;
+      padding-right: 120px;
+    }
+    #about p {
+      font-size: 19px;
+      padding-right: 270px;
+    }
+/*      SECTION PORTFOLIO     */
+  #portfolio h4 {
+    font-size: 30px;
+  }
+  .project-two > .card {
+    height: 300px;
+  }
+/*      SECTION PROJET PERSO     */
+#perso p {
+  font-size: 65px;
+}
+figcaption {
+  font-size: 30px!important;
+}
+}

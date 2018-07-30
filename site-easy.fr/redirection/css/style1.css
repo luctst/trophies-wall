@@ -1,0 +1,118 @@
+/* représente le menu nav et la petit bande noir */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #FFF;
+	height: 70px;
+	text-align: right; 
+	padding-top: 25px;
+}
+
+nav a {
+	text-transform: none;
+	color: black;
+	font-size: 1em;
+	padding: 14px 16px;
+	line-height: 15px;
+	text-transform: uppercase;
+}
+
+nav a:hover {
+	text-decoration: none;
+	background-color: #EEE;
+	color: black;
+	border-radius: 3px;
+	box-shadow: 2px 2px 5px black;
+}
+
+header nav a:first-child {
+	position: absolute;
+	top: 15px;
+	left: 10px;
+}
+
+#homebtn {
+	color: #FFF;
+	background-color: #357AB7;
+	border-radius: 3px;
+	margin: 10px;
+}
+
+#block1 {
+	background: #494c43;
+	color: #FFF;
+	padding: 20px 0;
+}
+
+#block1 a {
+	display: inline-block;
+	font-size: 14px;
+	color: #C0C0C0;
+	line-height: 10px;
+	margin: 0 17px;
+}
+
+#block1 i {
+	margin: 0 5px;
+}
+
+#block1 a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+
+/* partie block 2 */
+
+#block2 {
+	padding: 105px 0;
+	text-align: center;
+	background: #FFF;
+	margin-top: 10px;
+}
+
+#block2 p {
+	text-align: justify;
+	margin: 14px;
+	line-height: 23px;
+}
+
+/* boutton */
+
+#btn {
+	font-size: 25px !important;
+	display: inline-block;
+	margin: 14px;
+	background: #357AB7;
+	border: none;
+	color: #FFF !important;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 3px;
+	padding: 7px 7px;
+}
+
+#btn:hover {
+	box-shadow: 0 2px 5px black;
+}
+
+/* pied de page */
+
+footer {
+	padding: 20px 0;
+	background: #BBB;
+}
+
+footer p {
+	text-align: right;
+	color: #FFF;
+}
+
+
+
+

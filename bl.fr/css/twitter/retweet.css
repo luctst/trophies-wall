@@ -1,0 +1,528 @@
+/* --------------------
+  Général
+---------------------*/
+
+body,html {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FFF !important;
+}
+
+/* --------------------
+  navigation
+---------------------*/
+
+.navbar-brand {
+  font-size: 2.2em!important;
+  margin-left: 50px;
+  color: #605E5E !important;
+  font-family: 'Oswald', sans-serif;
+}
+
+nav {
+  padding: 22px;
+}
+
+.navbar {
+  margin-bottom: 0!important;
+}
+
+/* --------------------
+  liste
+---------------------*/
+
+#liste {
+  list-style-type: none;
+  font-size: 1.3em;
+  text-align: right;
+  margin-right: 50px;
+}
+
+#liste ul {
+  display: inline-block;
+  padding: 10px;
+  border-top: 2px solid #94B1D1;
+  border-bottom: 2px solid #94B1D1;
+  margin: 7px;
+}
+
+#liste ul:hover {
+  border-top: 2px solid #01B1AF;
+  border-bottom: 2px solid #01B1AF;
+}
+
+#liste ul a {
+  color: #94B1D1;
+}
+
+#liste ul a:hover {
+  text-decoration: none;
+  color: #01B1AF;
+}
+
+/* --------------------
+  bloc1
+---------------------*/
+
+#bloc1 {
+  padding: 30px;
+}
+
+#bloc1 h1 {
+  color: #605E5E;
+  font-weight: bold;
+  font-size: 2.3em;
+  text-align: center;
+}
+
+#bloc1 hr {
+  width: 85%;
+  border: 2px solid #7DBEE3;
+}
+
+/* --------------------
+  bloc2
+---------------------*/
+
+#bloc2 {
+  padding: 30px;
+}
+
+/* --------------------
+  bloc2 -> twit-500
+---------------------*/
+
+#twit-500 {
+  float: left;
+  text-align: center;
+  padding-left: 400px;
+}
+
+#float-500 {
+  float: right;
+  padding-left: 10px;
+}
+
+#twit-500 img {
+  width: 250px;
+  height: auto;
+  background-color: #FFF;
+  padding: 7px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+#twit-500 h2 {
+  font-size: 1.5em;
+  color: #605E5E;
+}
+
+#twit-500 p {
+  color: #A0A09F;
+}
+
+
+#twit-500 hr {
+  width: 50%;
+  border: 1px solid #7DBEE3;
+}
+
+#prix-twit-500 {
+  font-size: 1.6em;
+  color: #605E5E !important;
+}
+
+#twit-500 a {
+  display: inline-block;
+  background-color: #7DBEE3;
+  padding: 5px;
+  font-weight: bold;
+  color: #FFF;
+  font-size: 1.2em;
+}
+
+
+#twit-500 a:hover {
+  text-decoration:none;
+  background-color: #2B6CA3;
+}
+
+/* --------------------
+  bloc3
+---------------------*/
+
+#bloc3 {
+  padding: 30px;
+  clear: both;
+}
+
+#bloc3 hr {
+  width: 85%;
+  border: 2px solid #7DBEE3;
+}
+
+/* --------------------
+  bloc3 -> twit-1000
+---------------------*/
+
+#twit-1000 {
+  float: left;
+  text-align: center;
+  padding-left: 400px;
+  padding-top: 63px;
+}
+
+#float-1000 {
+  float: right;
+  padding-left: 10px;
+}
+
+#twit-1000 img {
+  width: 250px;
+  height: auto;
+  background-color: #FFF;
+  padding: 7px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+#twit-1000 h2 {
+  font-size: 1.5em;
+  color: #605E5E;
+}
+
+#twit-1000 p {
+  color: #A0A09F;
+}
+
+#twit-1000 hr {
+  width: 50%;
+  border: 1px solid #7DBEE3;
+}
+
+#prix-twit-1000 {
+  font-size: 1.6em;
+  color: #605E5E !important;
+}
+
+#twit-1000 a {
+  display: inline-block;
+  background-color: #7DBEE3;
+  padding: 5px;
+  font-weight: bold;
+  color: #FFF;
+  font-size: 1.2em;
+}
+
+#twit-1000 a:hover {
+  text-decoration:none;
+  background-color: #2B6CA3;
+}
+
+/* --------------------
+  bloc4
+---------------------*/
+
+#bloc4 {
+  padding: 30px;
+  clear: both;
+}
+
+#bloc4 hr {
+  width: 85%;
+  border: 2px solid #7DBEE3;
+}
+
+/* --------------------
+  bloc4 -> twit-2500
+---------------------*/
+
+#twit-2500 {
+  float: left;
+  text-align: center;
+  padding-left: 400px;
+  padding-top: 63px;
+}
+
+#float-2500 {
+  float: right;
+  padding-left: 10px;
+}
+
+#twit-2500 img {
+  width: 250px;
+  height: auto;
+  background-color: #FFF;
+  padding: 7px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+#twit-2500 h2 {
+  font-size: 1.5em;
+  color: #605E5E;
+}
+
+#twit-2500 p {
+  color: #A0A09F;
+}
+
+#twit-2500 hr {
+  width: 50%;
+  border: 1px solid #7DBEE3;
+}
+
+#prix-twit-2500 {
+  font-size: 1.6em;
+  color: #605E5E !important;
+}
+
+#twit-2500 a {
+  display: inline-block;
+  background-color: #7DBEE3;
+  padding: 5px;
+  font-weight: bold;
+  color: #FFF;
+  font-size: 1.2em;
+}
+
+#twit-2500 a:hover {
+  text-decoration:none;
+  background-color: #2B6CA3;
+}
+
+/* --------------------
+  bloc5
+---------------------*/
+
+#bloc5 {
+  padding: 30px;
+  clear: both;
+}
+
+#bloc5 hr {
+  width: 85%;
+  border: 2px solid #7DBEE3;
+}
+
+/* --------------------
+  bloc5 -> twit-5000
+---------------------*/
+
+#twit-5000 {
+  float: left;
+  text-align: center;
+  padding-left: 400px;
+  padding-top: 63px;
+}
+
+#float-5000 {
+  float: right;
+  padding-left: 10px;
+}
+
+#twit-5000 img {
+  width: 250px;
+  height: auto;
+  background-color: #FFF;
+  padding: 7px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+#twit-5000 h2 {
+  font-size: 1.5em;
+  color: #605E5E;
+}
+
+#twit-5000 p {
+  color: #A0A09F;
+}
+
+#twit-5000 hr {
+  width: 50%;
+  border: 1px solid #7DBEE3;
+}
+
+#prix-twit-5000 {
+  font-size: 1.6em;
+  color: #605E5E !important;
+}
+
+#twit-5000 a {
+  display: inline-block;
+  background-color: #7DBEE3;
+  padding: 5px;
+  font-weight: bold;
+  color: #FFF;
+  font-size: 1.2em;
+}
+
+#twit-5000 a:hover {
+  text-decoration:none;
+  background-color: #2B6CA3;
+}
+
+/* --------------------
+  bloc6
+---------------------*/
+
+#bloc6 {
+  padding: 30px;
+  clear: both;
+}
+
+#bloc6 hr {
+  width: 85%;
+  border: 2px solid #7DBEE3;
+}
+
+/* --------------------
+  bloc6 -> twit-10,000
+---------------------*/
+
+#twit-10000 {
+  float: left;
+  text-align: center;
+  padding-left: 400px;
+  padding-top: 63px;
+}
+
+#float-10000 {
+  float: right;
+  padding-left: 10px;
+}
+
+#twit-10000 img {
+  width: 250px;
+  height: auto;
+  background-color: #FFF;
+  padding: 7px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+#twit-10000 h2 {
+  font-size: 1.5em;
+  color: #605E5E;
+}
+
+#twit-10000 p {
+  color: #A0A09F;
+}
+
+#twit-10000 hr {
+  width: 50%;
+  border: 1px solid #7DBEE3;
+}
+
+#prix-twit-10000 {
+  font-size: 1.6em;
+  color: #605E5E !important;
+}
+
+#twit-10000 a {
+  display: inline-block;
+  background-color: #7DBEE3;
+  padding: 5px;
+  font-weight: bold;
+  color: #FFF;
+  font-size: 1.2em;
+}
+
+#twit-10000 a:hover {
+  text-decoration:none;
+  background-color: #2B6CA3;
+}
+
+/* --------------------
+  bloc7
+---------------------*/
+
+#bloc7 {
+  padding: 30px;
+  clear: both;
+}
+
+#bloc7 hr {
+  width: 85%;
+  border: 2px solid #7DBEE3;
+}
+
+/* --------------------
+  bloc7 -> twit-25,000
+---------------------*/
+
+#twit-25000 {
+  float: left;
+  text-align: center;
+  padding-left: 400px;
+  padding-top: 63px;
+}
+
+#float-25000 {
+  float: right;
+  padding-left: 10px;
+}
+
+#twit-25000 img {
+  width: 250px;
+  height: auto;
+  background-color: #FFF;
+  padding: 7px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+#twit-25000 h2 {
+  font-size: 1.5em;
+  color: #605E5E;
+}
+
+#twit-25000 p {
+  color: #A0A09F;
+}
+
+#twit-25000 hr {
+  width: 50%;
+  border: 1px solid #7DBEE3;
+}
+
+#prix-twit-25000 {
+  font-size: 1.6em;
+  color: #605E5E !important;
+}
+
+#twit-25000 a {
+  display: inline-block;
+  background-color: #7DBEE3;
+  padding: 5px;
+  font-weight: bold;
+  color: #FFF;
+  font-size: 1.2em;
+}
+
+#twit-25000 a:hover {
+  text-decoration:none;
+  background-color: #2B6CA3;
+}
+
+/* --------------------
+  footer
+---------------------*/
+
+footer {
+  clear: both;
+  background-color: #605E5E;
+  padding: 25px;
+  margin-top: 400px;
+}
+
+#footer1 {
+  text-align: center;
+}
+
+#footer1 a{
+  color: #CCC;
+  font-size: 0.8em;
+}
+
+#footer1 a:hover {
+  color: #ccc;
+  text-decoration: none;
+}

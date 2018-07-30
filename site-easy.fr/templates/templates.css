@@ -1,0 +1,199 @@
+/* représente le menu nav et la petit bande noir */
+
+html, body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #FFF;
+	height: 70px;
+	text-align: right; 
+	padding-top: 25px;
+}
+
+nav a {
+	text-transform: none;
+	color: black;
+	font-size: 1em;
+	padding: 14px 16px;
+	line-height: 15px;
+	text-transform: uppercase;
+}
+
+nav a:hover {
+	text-decoration: none;
+	background-color: #EEE;
+	color: black;
+	border-radius: 3px;
+	box-shadow: 2px 2px 5px black;
+}
+
+header nav a:first-child {
+	position: absolute;
+	top: 15px;
+	left: 10px;
+}
+
+#homebtn {
+	color: #FFF;
+	background-color: #357AB7;
+	border-radius: 3px;
+	margin: 10px;
+}
+
+#block1 {
+	background: #494c43;
+	color: #FFF;
+	padding: 20px 0;
+}
+
+#block1 a {
+	display: inline-block;
+	font-size: 14px;
+	color: #C0C0C0;
+	line-height: 10px;
+	margin: 0 17px;
+}
+
+#block1 i {
+	margin: 0 5px;
+}
+
+#block1 a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+
+/* partie des différents titres de la page */
+
+.titre {
+	padding: 20px 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	font-size: 20px !important;
+	font-weight: bold !important;
+	margin-left: 15px;
+	color: #303030!important;
+	margin-bottom: none;
+}
+
+em {
+	font-size: 15px;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+/* classe CSS des images dans la page */
+
+img {
+	display: inline-block;
+	margin-right: 17px;
+	margin-left: 11px;	
+}
+
+img:hover {
+	box-shadow: 2px 3px 10px black;
+	background: #EEE;	
+}
+
+/* partie ou se trouve le premier templates */
+
+.conteneur {
+	text-align: left;
+	background: #CCC;
+	padding: 30px 0;
+	margin: 0;
+}
+
+/* partie ou se trouve le deuxiéme template */
+
+#block3 {
+	background: #DDD;
+	padding: 30px 0;
+	width: 100%;
+}
+
+/* partie ou se trouve le troisime template */
+
+#block4 {
+	background: #EEE;
+	padding: 30px 0;
+}
+
+/* boutons paypal */
+
+.btn1 {
+	float: right;
+	padding: 50px 70px 0;
+}
+
+/* block5 */
+
+#block5 {
+	background: #FFF;
+	padding: 30px 0;
+}
+
+/* début boutons  bas de page */
+
+.nav1 {
+	padding-left: 600px;
+	padding-right: 575px;
+}
+
+.nav1 li {
+	font-size: 18px;
+}
+
+.nav1 a {
+	color: #FFF;
+	background-color: #357AB7 !important;
+}
+
+.nav1 a:hover {
+	color: #FFF;
+	box-shadow: 2px 2px 4px black;
+}
+
+/* pied de page */
+
+footer {
+	background: #BBB;
+	padding: 15px 0;
+}
+
+footer p {
+	text-align: right;
+	color: #FFF;
+}
+
+/* balise span */
+
+span {
+	text-decoration: line-through;
+}
+
+/* prix en couleur */
+
+#prix {
+	font-weight: bold;
+	color: #357AB7;
+	text-decoration: none;
+}
+
+/* lien mentions légales */
+
+footer p a {
+	color: white;
+}
+footer p a:hover {
+	color: white;
+	text-decoration: none;
+}

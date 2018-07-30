@@ -1,0 +1,386 @@
+/* --------------------
+  Général
+---------------------*/
+
+body,html {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FFF !important;
+}
+
+/* --------------------
+  navigation
+---------------------*/
+
+.navbar-brand {
+  font-size: 2.2em!important;
+  margin-left: 50px;
+  color: #605E5E !important;
+  font-family: 'Oswald', sans-serif;
+}
+
+nav {
+  padding: 22px;
+}
+
+.navbar {
+  margin-bottom: 0!important;
+}
+
+/* --------------------
+  liste
+---------------------*/
+
+#liste {
+  list-style-type: none;
+  font-size: 1.3em;
+  text-align: right;
+  margin-right: 50px;
+}
+
+#liste ul {
+  display: inline-block;
+  padding: 10px;
+  border-top: 2px solid #94B1D1;
+  border-bottom: 2px solid #94B1D1;
+  margin: 7px;
+}
+
+#liste ul:hover {
+  border-top: 2px solid #01B1AF;
+  border-bottom: 2px solid #01B1AF;
+}
+
+#liste ul a {
+  color: #94B1D1;
+}
+
+#liste ul a:hover {
+  text-decoration: none;
+  color: #01B1AF;
+}
+
+/* --------------------
+  bloc1
+---------------------*/
+
+#bloc1 {
+  padding: 30px;
+}
+
+#bloc1 h1 {
+  color: #605E5E;
+  font-weight: bold;
+  font-size: 2.3em;
+  text-align: center;
+}
+
+#bloc1 hr {
+  width: 85%;
+  border: 2px solid #D14417;
+}
+
+/* --------------------
+  bloc2
+---------------------*/
+
+#bloc2 {
+  padding: 30px;
+}
+
+/* --------------------
+  bloc2 -> insta-250
+---------------------*/
+
+#yt-10000 {
+  float: left;
+  text-align: center;
+  padding-left: 400px;
+}
+
+#float-10000 {
+  float: right;
+  padding-left: 10px;
+}
+
+#yt-10000 img {
+  width: 250px;
+  height: auto;
+  background-color: #FFF;
+  padding: 7px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+#yt-10000 h2 {
+  font-size: 1.5em;
+  color: #605E5E;
+}
+
+#yt-10000 p {
+  color: #A0A09F;
+}
+
+
+#yt-10000 hr {
+  width: 50%;
+  border: 1px solid #D14417;
+}
+
+#prix-yt-10000 {
+  font-size: 1.6em;
+  color: #605E5E !important;
+}
+
+#yt-10000 a {
+  display: inline-block;
+  background-color: #D14417;
+  padding: 5px;
+  font-weight: bold;
+  color: #FFF;
+  font-size: 1.2em;
+}
+
+
+#yt-10000 a:hover {
+  text-decoration:none;
+  background-color: red;
+}
+
+/* --------------------
+  bloc3
+---------------------*/
+
+#bloc3 {
+  padding: 30px;
+  clear: both;
+}
+
+#bloc3 hr {
+  width: 85%;
+  border: 2px solid #D14417;
+}
+
+/* --------------------
+  bloc3 -> yt-25000
+---------------------*/
+
+#yt-25000 {
+  float: left;
+  text-align: center;
+  padding-left: 400px;
+  padding-top: 63px;
+}
+
+#float-25000 {
+  float: right;
+  padding-left: 10px;
+}
+
+#yt-25000 img {
+  width: 250px;
+  height: auto;
+  background-color: #FFF;
+  padding: 7px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+#yt-25000 h2 {
+  font-size: 1.5em;
+  color: #605E5E;
+}
+
+#yt-25000 p {
+  color: #A0A09F;
+}
+
+#yt-25000 hr {
+  width: 50%;
+  border: 1px solid #D14417;
+}
+
+#prix-yt-25000 {
+  font-size: 1.6em;
+  color: #605E5E !important;
+}
+
+#yt-25000 a {
+  display: inline-block;
+  background-color: #D14417;
+  padding: 5px;
+  font-weight: bold;
+  color: #FFF;
+  font-size: 1.2em;
+}
+
+#yt-25000 a:hover {
+  text-decoration:none;
+  background-color: red;
+}
+
+/* --------------------
+  bloc4
+---------------------*/
+
+#bloc4 {
+  padding: 30px;
+  clear: both;
+}
+
+#bloc4 hr {
+  width: 85%;
+  border: 2px solid #D14417;
+}
+
+/* --------------------
+  bloc3 -> yt-50000
+---------------------*/
+
+#yt-50000 {
+  float: left;
+  text-align: center;
+  padding-left: 400px;
+  padding-top: 63px;
+}
+
+#float-50000 {
+  float: right;
+  padding-left: 10px;
+}
+
+#yt-50000 img {
+  width: 250px;
+  height: auto;
+  background-color: #FFF;
+  padding: 7px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+#yt-50000 h2 {
+  font-size: 1.5em;
+  color: #605E5E;
+}
+
+#yt-50000 p {
+  color: #A0A09F;
+}
+
+#yt-50000 hr {
+  width: 50%;
+  border: 1px solid #D14417;
+}
+
+#prix-yt-50000 {
+  font-size: 1.6em;
+  color: #605E5E !important;
+}
+
+#yt-50000 a {
+  display: inline-block;
+  background-color: #D14417;
+  padding: 5px;
+  font-weight: bold;
+  color: #FFF;
+  font-size: 1.2em;
+}
+
+#yt-50000 a:hover {
+  text-decoration:none;
+  background-color: red;
+}
+
+/* --------------------
+  bloc5
+---------------------*/
+
+#bloc5 {
+  padding: 30px;
+  clear: both;
+}
+
+#bloc5 hr {
+  width: 85%;
+  border: 2px solid #D14417;
+}
+
+/* --------------------
+  bloc5 -> yt-100000
+---------------------*/
+
+#yt-1000000 {
+  float: left;
+  text-align: center;
+  padding-left: 400px;
+  padding-top: 63px;
+}
+
+#float-1000000 {
+  float: right;
+  padding-left: 10px;
+}
+
+#yt-1000000 img {
+  width: 250px;
+  height: auto;
+  background-color: #FFF;
+  padding: 7px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+#yt-1000000 h2 {
+  font-size: 1.5em;
+  color: #605E5E;
+}
+
+#yt-1000000 p {
+  color: #A0A09F;
+}
+
+#yt-1000000 hr {
+  width: 50%;
+  border: 1px solid #D14417;
+}
+
+#prix-yt-1000000 {
+  font-size: 1.6em;
+  color: #605E5E !important;
+}
+
+#yt-1000000 a {
+  display: inline-block;
+  background-color: #D14417;
+  padding: 5px;
+  font-weight: bold;
+  color: #FFF;
+  font-size: 1.2em;
+}
+
+#yt-1000000 a:hover {
+  text-decoration:none;
+  background-color: red;
+}
+
+/* --------------------
+  footer
+---------------------*/
+
+footer {
+  clear: both;
+  background-color: #605E5E;
+  padding: 25px;
+  margin-top: 400px;
+}
+
+#footer1 {
+  text-align: center;
+}
+
+#footer1 a{
+  color: #CCC;
+  font-size: 0.8em;
+}
+
+#footer1 a:hover {
+  color: #ccc;
+  text-decoration: none;
+}

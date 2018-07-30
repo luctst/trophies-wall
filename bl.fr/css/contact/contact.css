@@ -1,0 +1,95 @@
+/* --------------------
+  Général
+---------------------*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* --------------------
+  header
+---------------------*/
+
+header {
+  background-color: #DCDCDC;
+}
+
+/* --------------------
+  navigation
+---------------------*/
+
+.navbar-brand {
+  font-size: 2.3em!important;
+  margin-left: 50px;
+  color: #605E5E !important;
+  font-family: 'Oswald', sans-serif;
+}
+
+nav {
+  padding: 22px;
+}
+
+.navbar {
+  margin-bottom: 0!important;
+}
+
+/* --------------------
+  liste
+---------------------*/
+
+#liste {
+  list-style-type: none;
+  font-size: 1.3em;
+  text-align: right;
+  margin-right: 50px;
+}
+
+#liste ul {
+  display: inline-block;
+  padding: 10px;
+  border-top: 2px solid #94B1D1;
+  border-bottom: 2px solid #94B1D1;
+  margin: 7px;
+}
+
+#liste ul:hover {
+  border-top: 2px solid #01B1AF;
+  border-bottom: 2px solid #01B1AF;
+}
+
+#liste ul a {
+  color: #94B1D1;
+}
+
+#liste ul a:hover {
+  text-decoration: none;
+  color: #01B1AF;
+}
+
+/* --------------------
+  form
+---------------------*/
+
+h1 {
+  text-align: center;
+}
+
+form {
+  padding: 50px;
+  background-color: #EEE;
+}
+
+input {
+  display: block;
+  margin-bottom: 25px !important;
+  height: 45px !important;
+}
+
+.btn {
+  display: block;
+  text-align: center !important;
+  margin-left: 180px;
+  margin-top: 10px !important;
+}

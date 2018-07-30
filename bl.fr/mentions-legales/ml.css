@@ -1,0 +1,100 @@
+/* --------------------
+  Général
+---------------------*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* --------------------
+  header
+---------------------*/
+
+header {
+  background-color: #DCDCDC;
+}
+
+/* --------------------
+  navigation
+---------------------*/
+
+.navbar-brand {
+  font-size: 2.3em!important;
+  margin-left: 50px;
+  color: #605E5E !important;
+  font-family: 'Oswald', sans-serif;
+}
+
+nav {
+  padding: 22px;
+}
+
+.navbar {
+  margin-bottom: 0!important;
+}
+
+/* --------------------
+  bloc1
+---------------------*/
+
+#bloc1 {
+  background-color: #FFF;
+  padding: 30px;
+}
+
+#bloc1 h1 {
+  color: #605E5E;
+  font-size: 2em;
+  text-align: center;
+}
+
+#bloc1 p {
+  text-align: justify;
+  margin: 20px;
+}
+
+/* --------------------
+  bloc2
+---------------------*/
+
+#bloc2 {
+  background-color: #FFF;
+  padding: 30px;
+}
+
+#bloc2 h1 {
+  color: #605E5E;
+  font-size: 2em;
+  text-align: center;
+}
+
+#bloc2 p {
+  text-align: justify;
+  margin: 20px;
+  overflow: auto;
+  height: 300px;
+}
+
+/* --------------------
+  bloc3
+---------------------*/
+
+#bloc3 {
+  background-color: #FFF;
+  padding: 30px;
+}
+
+#bloc3 h1 {
+  color: #605E5E;
+  font-size: 2em;
+  text-align: center;
+}
+
+#bloc3 p {
+  text-align: justify;
+  margin: 20px;
+  overflow: auto;
+  height: 300px;
+}

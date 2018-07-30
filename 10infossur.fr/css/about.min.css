@@ -1,0 +1,115 @@
+/*---------------
+  Géneral
+--------------*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lora', 'Times New Roman', serif;
+  font-size: 20px;
+}
+
+/*---------------
+  Navigation
+--------------*/
+.navbar-custom { /* class "navbar-custom" */
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #FFF;
+  padding: 15px 0;
+}
+.navbar-custom .navbar-brand {
+  color: #3e69dc;
+  font-size: 1.4em;
+  margin-left: 10px !important;
+}
+
+.navbar-right {
+  margin-right: 10px;
+}
+
+.navbar-custom .nav li a {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: #FFF;
+  border-bottom: 2px solid #3e69dc;
+}
+
+#bs-example-navbar-collapse-1 a {
+  color: black;
+}
+
+#bs-example-navbar-collapse-1 a:hover {
+  color: #3e69dc;
+  border-bottom: 2px solid #3e69dc;
+}
+
+/*---------------
+  header
+--------------*/
+.intro-header {
+  font-family: 'Lora', 'Times New Roman', serif;
+  background-color: #808080;
+  background: no-repeat center center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-bottom: 50px;
+}
+
+.intro-header .site-heading,
+.intro-header .post-heading,
+.intro-header .page-heading {
+  padding: 150px 0 130px;
+  color: white;
+}
+
+.site-heading h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.3em;
+}
+
+.site-heading p {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.site-heading hr {
+  border: 2px solid #FFF;
+  width: 20%;
+}
+
+/*-----------
+  section texte
+-----------*/
+section p {
+  text-align: justify;
+  color: #404040;
+  font-size: 20px;
+  margin: 3px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+/*------------
+  footer
+------------*/
+footer { /* pied de page */
+  padding: 50px 0 65px;
+}
+footer .list-inline {
+  margin: 0;
+  padding: 0;
+}
+footer .copyright {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 20px;
+}

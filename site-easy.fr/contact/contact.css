@@ -1,0 +1,161 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	background-color: #FFF;
+	height: 70px;
+	text-align: right; 
+	padding-top: 25px;
+}
+
+nav a {
+	text-transform: none;
+	color: black;
+	font-size: 1em;
+	padding: 14px 16px;
+	line-height: 15px;
+	text-transform: uppercase;
+}
+
+nav a:hover {
+	text-decoration: none;
+	background-color: #EEE;
+	color: black;
+	border-radius: 3px;
+	box-shadow: 2px 2px 5px black;
+}
+
+header nav a:first-child {
+	position: absolute;
+	top: 15px;
+	left: 10px;
+}
+
+#homebtn {
+	color: #FFF;
+	background-color: #357AB7;
+	border-radius: 3px;
+	margin: 10px;
+}
+
+#block1 {
+	background: #494c43;
+	color: #FFF;
+	padding: 20px 0;
+}
+
+#block1 a {
+	display: inline-block;
+	font-size: 14px;
+	color: #C0C0C0;
+	line-height: 10px;
+	margin: 0 17px;
+}
+
+#block1 i {
+	margin: 0 5px;
+}
+
+#block1 a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+
+#block2 {
+	padding: 75px 0;
+	background: #FFF;
+}
+
+form {
+	text-align: center;
+
+}
+
+h2 {
+	padding-right: 35px;
+}
+
+label {
+	border: 1px solid #CCC;
+	margin: 13px 0;
+}
+
+span {
+	display: inline-block;
+	width: 120px;
+	vertical-align: top;
+	font-weight: bold;
+	background: #EEE;
+	line-height: 47px;
+	padding: 6px;
+	text-align: center;
+}
+
+#prénom {
+	vertical-align: middle;
+	border: none;
+	padding: 13px 0;
+	height: 60px;
+	width: 315px;
+}
+
+#nom {
+	vertical-align: middle;
+	border: none;
+	padding: 13px 0;
+	height: 60px;
+	width: 315px;
+}
+
+#email {
+	vertical-align: middle;
+	border: none;
+	padding: 13px 0;
+	height: 60px;
+	width: 315px;
+}
+
+#mail {
+	vertical-align: middle;
+	border: none;
+	padding: 17px 0;
+	height: 60px;
+	width: 315px;
+}
+
+#btn {
+	background:  #357AB7;
+	color: #FFF;
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#btn:hover {
+	background:  #1560BD;
+}
+
+footer {
+	padding: 20px 0;
+	background: #BBB;
+	text-align: right;
+}
+
+footer a {
+	display: inline-block;
+	color: #FFF;
+}
+
+
+footer a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+
+
+
+
+

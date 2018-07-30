@@ -1,0 +1,294 @@
+/* --------------------
+  Général
+---------------------*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* --------------------
+  header
+---------------------*/
+
+header {
+  background-color: #DCDCDC;
+}
+
+/* --------------------
+  navigation
+---------------------*/
+
+.navbar-brand {
+  font-size: 2.2em!important;
+  margin-left: 50px;
+  color: #605E5E !important;
+  font-family: 'Oswald', sans-serif;
+}
+
+nav {
+  padding: 22px;
+}
+
+.navbar {
+  margin-bottom: 0!important;
+}
+
+/* --------------------
+  liste
+---------------------*/
+
+#liste {
+  list-style-type: none;
+  font-size: 1.3em;
+  text-align: right;
+  margin-right: 50px;
+}
+
+#liste ul {
+  display: inline-block;
+  padding: 10px;
+  border-top: 2px solid #94B1D1;
+  border-bottom: 2px solid #94B1D1;
+  margin: 7px;
+}
+
+#liste ul:hover {
+  border-top: 2px solid #01B1AF;
+  border-bottom: 2px solid #01B1AF;
+}
+
+#liste ul a {
+  color: #94B1D1;
+}
+
+#liste ul a:hover {
+  text-decoration: none;
+  color: #01B1AF;
+}
+
+/* --------------------
+  bloc1
+---------------------*/
+
+#bloc1 {
+  background-color: #1C68A6;
+  padding: 30px;
+  text-align: center;
+}
+
+#bloc1 h1 {
+  color: #FFF;
+}
+
+#bloc1 p {
+  color: #FFF;
+  text-align: center;
+  font-size: 1.2em;
+  margin: 30px;
+}
+
+#bloc1 hr {
+  width: 20%;
+  border: 1px solid #FFF!important;
+}
+
+#bloc1 a {
+  display: inline-block;
+  color: #FFF;
+  border: 2px solid #0C3CB3;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 1.3em;
+}
+
+#bloc1 a:hover {
+  text-decoration: none;
+  transition: all 0.2s ease-in 0s;
+  background-color: #0C3CB3;
+}
+
+/* --------------------
+  bloc2
+---------------------*/
+#bloc2 {
+  padding: 30px;
+  background-color: #FFF;
+  text-align: center;
+}
+
+#bloc2 h2 {
+  color: #605E5E;
+  font-weight: bold;
+}
+
+hr {
+  border: 1px solid #3D9BE9!important;
+}
+
+/* --------------------
+  bloc3
+---------------------*/
+
+#bloc3 {
+  background-color: #FFF;
+  padding: 25px;
+}
+
+/* --------------------
+  bloc3 -> div1
+---------------------*/
+
+#div-float {
+  float: right;
+  text-align: center;
+  padding-left: 10px;
+}
+
+#div1 {
+  float: left;
+}
+
+#div1 img {
+  width: 250px;
+  height: auto;
+  background-color: #FFF;
+  padding: 7px;
+  box-shadow: 2px 2px 5px black;
+}
+
+#div1 h3 {
+  color: #605E5E;
+  font-size: 1.3em;
+}
+
+#div1 p {
+  color: #A0A09F;
+}
+
+#div1 hr {
+  width: 50%;
+}
+
+#prix {
+  font-size: 1.6em;
+  color: #605E5E !important;
+}
+
+#div1 a {
+  display: inline-block;
+  background-color: #0C3CB3;
+  padding: 5px;
+  font-weight: bold;
+  color: #FFF;
+  font-size: 1.2em;
+}
+
+#div1 a:hover {
+  text-decoration:none;
+  background-color: #2B6CA3;
+}
+
+/* --------------------
+  bloc3 -> div2
+---------------------*/
+
+#div-float2 {
+  float: right;
+  text-align: center;
+  padding-left: 10px;
+}
+
+#div2 {
+  float: right;
+}
+
+#div2 img {
+  width: 250px;
+  height: auto;
+  background-color: #FFF;
+  padding: 7px;
+  box-shadow: 2px 2px 5px black;
+}
+
+#div2 h3 {
+  color: #605E5E;
+  font-size: 1.3em;
+}
+
+#price {
+  font-size: 1.6em;
+  color: #605E5E !important;
+}
+
+#div2 p {
+  color: #A0A09F;
+}
+
+#div2 hr {
+  width: 50%;
+}
+
+#div2 a {
+  display: inline-block;
+  background-color: #0C3CB3;
+  font-weight: bold;
+  padding: 5px;
+  color: #FFF;
+  font-size: 1.2em;
+}
+
+#div2 a:hover {
+  text-decoration:none;
+  background-color: #2B6CA3;
+}
+
+/* --------------------
+  bloc4
+---------------------*/
+
+#bloc4 {
+  margin-top: 250px;
+  background-color: #FFF;
+  padding: 30px;
+  clear: both;
+}
+
+#bloc4 hr {
+  width: 70%;
+}
+
+#bloc4 p {
+  color: #605E5E;
+  text-align: justify;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-left: 1px solid #01B1AF;
+  border-right: 1px solid #01B1AF;
+  padding: 10px;
+}
+
+/* --------------------
+  footer
+---------------------*/
+
+footer {
+  background-color: #605E5E;
+  padding: 25px;
+}
+
+#footer1 {
+  text-align: center;
+}
+
+#footer1 a{
+  color: #CCC;
+  font-size: 0.8em;
+}
+
+#footer1 a:hover {
+  color: #ccc;
+  text-decoration: none;
+}

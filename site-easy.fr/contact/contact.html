@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title> Contactez-moi </title>
+		 <!-- link -->
+		<link rel="stylesheet" type="text/css" href="contact.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="icon" type="image/png" href="favicon1.ico"/>
+		<link rel="canonical" href="http://www.site-easy.fr/contact/contact.html">
+		 <!-- meta -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="contactez-moi pour plus d'informations">
+		 <!-- OG: facebook -->
+		<meta property="og:type" content="article">
+		<meta property="og:description" content="contactez-moi pour plus d'informations">
+		<meta property ="og:title" content="Contactez-moi">
+		 <!-- script -->
+		<script src="https://use.fontawesome.com/9b5d78f072.js"></script>
+	</head>
+
+<body>
+<header> <!-- Entête bande blanche + menu de navigation -->
+		<div class="wrapper">
+				<nav>
+				 <a href="../index.html"> Site-easy </a>
+				 <a href="../index.html" id="homebtn"><i class="fa fa-home"></i></a>
+				 <a href="../index.html#block4"> Comment ca marche? </a>
+				 <a href="../templates/templates.html"> Templates </a>
+				 <a href="contact.html"> Contact </a>
+				</nav>
+		</div>
+	</header> <!-- fin de l'entête -->
+
+<section id="block1">
+	<div class="wrapper">
+		<a href="../index.html"><i class="fa fa-home"></i> > Accueil </a>
+	</div>
+</section>
+
+<section id="block2">
+	<div class="wrapper">
+		<form action="mailto:luc.tostee@outlook.fr" method="post">
+			<h2 style="font-size: 30px;"> Remplissez les informations :</h2>
+			 <label for="prénom">
+			 	<span> Prénom:</span>
+			 	<input type="text" name="prénom" id="prénom" placeholder="votre prénom*" required="true">
+			 </label> <br>
+			 <label for="nom">
+			 	<span> Nom:</span>
+			 	<input type="text" name="nom" id="nom" placeholder="Votre nom*" required="true">
+			 </label> <br>
+			 <label for="email">
+			 	<span> E-mail:</span>
+			 	<input type="email" name="email" id="email" placeholder="Votre E-mail*" required="true">
+			 </label> <br>
+			 <label for="mail">
+			 	<span> Votre message:</span>
+			 	<textarea name="mail" id="mail" placeholder="Écrivez votre message ici" required="true" rows="3"></textarea>
+			 </label> <br>
+			  <input type="submit" value="Envoyer" class="btn btn-sucess" id="btn">
+		</form>
+	</div>
+</section>
+
+<footer>
+	<a href="../ML/ML.html"> Mentions légales </a>
+</footer>
+</body>
+</html>
